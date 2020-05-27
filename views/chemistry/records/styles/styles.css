@@ -1,0 +1,146 @@
+#create_record_form{
+    margin: 0 auto;
+    width: 100%;
+}
+
+#create_study_form, #update_study_form{
+  padding: 2%;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.button-form{
+  float: right;
+}
+
+.custom-form-control{
+    display: inline-block;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.table{
+    font-size: 10pt !important;
+}
+
+.table td{
+    padding: .1rem !important;
+}
+
+
+
+.results tr[visible='false'],
+.no-result{
+  display:none;
+}
+
+.results tr[visible='true']{
+  display:table-row;
+}
+
+.counter{
+  padding:8px; 
+  color:#ccc;
+}
+
+#create_study_form{
+  display: none;
+}
+
+
+.row-form{
+  width: 100%;
+  display: block;
+}
+
+#nuc{
+  width: 100%;
+}
+
+#date{
+  width:100%;
+}
+
+#name{
+  width: 100%;
+}
+
+#description{
+  width: 100%;
+}
+
+#authority{
+  width: 100%;
+}
+
+#division{
+  width: 100%;
+}
+
+.form-group{
+  display: inline-block !important;
+}
+
+#cont-table-rows{
+  float: right;
+}
+
+#search-in-table{
+  display: inline-block;
+  width: 100%;
+}
+
+#search-table-rows{
+  display: inline;
+  float: right;
+}
+
+.modebar{
+  display: block !important;
+}
+
+a.modebar-btn.plotlyjsicon.modebar-btn--logo{
+  display: none !important;
+}
+
+#excel-btn{
+  display: inline-block;
+  float: left;
+  margin-right: 10px;
+}
+
+#comboCheck{
+  display: block;
+  width: 100%;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+a.small{
+  color: black;
+  text-decoration:none;
+  padding: 10px;
+}
+
+ul.dropdown-menu.show li:hover{
+  background-color: gray;
+}
+
+
+th{
+  text-align: center;
+}
