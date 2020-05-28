@@ -39,7 +39,6 @@
 				<img class="mb-4" src="assets/img/user.png" alt="" width="200" height="200">
 			</div>
 
-			<h1 class="h3 mb-3 font-weight-normal">Inicio de Sesión Principal</h1>
 			
 			<input id="user" name="user" type="text" class="form-control" placeholder="Usuario" required autofocus>
 			
