@@ -15,7 +15,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<meta name="description" content="">
 		<meta name="author" content="">
-		<title>Forense</title>
+		<title>Forense 2</title>
 
 		<link rel="shortcut icon" href="./assets/img/fge.png" />
 
