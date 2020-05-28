@@ -43,15 +43,16 @@ $(document).ready(function() {
             //document.getElementById("create_record_form").reset();
             document.getElementById("nuc").disabled = true;
             document.getElementById("date").disabled = true;
-            document.getElementById("authority").disabled = true;
-            document.getElementById("fiscalia").disabled = true;
-            document.getElementById("perito").disabled = true;
-            document.getElementById("oficio").disabled = true;
+            document.getElementById("authority").disabled = false;
             document.getElementById("save-record-btn").disabled = true;
             document.getElementById("cancel-record-btn").disabled = true;
             document.getElementById("save-record-btn").style.display = "none";
             document.getElementById("cancel-record-btn").style.display = "none";
             document.getElementById("update-record-btn").style.display = "block";
+
+            document.getElementById("authority").disabled = false;
+            document.getElementById("save-record-btn").disabled = true;
+            document.getElementById("cancel-record-btn").disabled = true;
             
             $("#study-container").load('../views/chemistry/records/create_study_form.php',
                                       {'record_id': response});
