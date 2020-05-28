@@ -49,7 +49,7 @@
 
 			<br>
 
-			<button class="btn btn-lg btn-outline-primary btn-block" type="submit" class="botonlg" id="login" >Acceder</button>
+			<button class="btn btn-lg btn-outline-primary btn-block" type="submit" class="botonlg" id="login" >Acceder a</button>
 
 		</form>
 		  
